@@ -2,6 +2,7 @@
 ## Clay (test users permissions to open 2 doors)
 
 Laravel Framework 5.8.16
+can be tested on http://ec2-52-50-116-11.eu-west-1.compute.amazonaws.com/
 <hr>
 
 ## How to install
