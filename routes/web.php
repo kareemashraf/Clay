@@ -15,4 +15,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/api/open/{user_id}/{door_id}', 'controller@open');

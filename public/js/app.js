@@ -8,12 +8,8 @@ $(document).ready(function(){
 		var door = $('input[name=inlineRadioOptionsdoor]:checked').val(); 
   		
 		$.ajax({
-            url:"/api/open/"+user+"/"+door,
+            url:"/api/check/"+user+"/"+door,
             type: "GET",
-            // data: {
-            //     "user_id": user, 
-            //     "door_id": door
-            // },
             async: true,
             success: function (data)
             {
